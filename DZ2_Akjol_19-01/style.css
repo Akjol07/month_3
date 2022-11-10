@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5822c0;
+}
+
+.box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+    border: 1px solid;
+}
+
+.block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
